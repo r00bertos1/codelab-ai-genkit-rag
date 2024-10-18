@@ -1,0 +1,4 @@
+--project: compass-codelab-ai-genkit-rag
+--collection-group: places
+--query-scope: COLLECTION
+--field-config: vector-config='{"dimension":"768","flat":"{}"}',field-path=embedding

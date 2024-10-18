@@ -19,11 +19,13 @@ import { dotprompt } from '@genkit-ai/dotprompt';
 import { firebase } from '@genkit-ai/firebase';
 import { vertexAI } from '@genkit-ai/vertexai';
 
-// Your web app's Firebase configuration
 const firebaseConfig = {
-  // ...
-  projectId: 'REPLACE_WITH_YOUR_PROJECT_ID',
-  // ...
+  apiKey: 'AIzaSyBJio41mfktOx0nlnltaD8Q_mEG0A4ZF-0',
+  authDomain: 'compass-codelab-ai-genkit-rag.firebaseapp.com',
+  projectId: 'compass-codelab-ai-genkit-rag',
+  storageBucket: 'compass-codelab-ai-genkit-rag.appspot.com',
+  messagingSenderId: '364019403609',
+  appId: '1:364019403609:web:05abe4d312ccdf9c735a48',
 };
 
 export const getProjectId = () => {
